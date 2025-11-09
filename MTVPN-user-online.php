@@ -481,10 +481,10 @@
 
         // Server list with names and URLs
         $servers = [
-            'th-Free Server 001' => 'http://103.114.200.252:81/server/online',
-            'th-Free Server 001' => 'http://103.114.200.251:81/server/online',
-            'th-Free Server 002' => 'http://103.114.200.252:81/server/online',
-            'th-Free Server 003' => 'http://185.78.167.193:81/server/online'
+            'th-Free Server 001' => 'http://mt01.mt-group.shop:81/server/online',
+            'th-Free Server 001' => 'http://mt02.mt-group.shop:81/server/online',
+            'th-Free Server 002' => 'http://mt03.mt-group.shop:81/server/online',
+            'th-Free Server 003' => 'http://mt04.mt-group.shop:81/server/online'
            
           
           
@@ -667,4 +667,5 @@
         // Function to update ping times
         function updatePingTimes() {
             console.log("Updating ping times...");
+
             // In a real implementation, this would ma
